@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Internship Experience</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- Menu (navigation bar) -->
+	<nav class="menu w3-hide-small">
+		<div id="menu-outer">
+			<ul class="menu-list">
+				<li><a title="home" href="index.html">Home</a></li>
+				<li><a title="about" href="about.html">About</a></li>
+				<li><a title="internship" href="internship.html">Internship Experience</a></li>
+				<li><a title="blog" href="index.html#blog">Blog</a></li>
+				<li><a title="contact" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Navigation bar (small) -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+	  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+	    <a href="index.html" class="w3-bar-item w3-button" style="width:20%">Home</a>
+	    <a href="about.html" class="w3-bar-item w3-button" style="width:20%">About</a>
+	    <a href="internship.html" class="w3-bar-item w3-button" style="width:20%">Internship</a>
+	    <a href="index.html#blog" class="w3-bar-item w3-button" style="width:20%">Blog</a>
+	    <a href="contact.html" class="w3-bar-item w3-button" style="width:20%">Contact</a>
+	  </div>
+	</div>
+
+	<!-- Header (Internship Experience) -->
+	<div class="main-internship">
+		<div class="innerDiv-internship">
+			<h1 class="w3-jumbo w3-center w3-hide-small w3-hide-medium">Internship Experience</h1>
+			<h1 class="w3-xxl w3-center w3-show-small w3-show-medium w3-hide-large">Internship Experience</h1>
+		</div>
+	</div>
+
+	<!-- About section -->
+	<div class="hdrs">
+		<h1 class="w3-center">About the Internship</h1>
+		<p class="w3-center w3-hide-small">Senior I.T. Internship at NHTI, Concord's Community College. Software developer for the I.T. Tech Services Team at White Hall. Worked on researching and developing small applications and tools for the college and the I.T. Department.<br> Some of the tasks and duties completed:</p>
+		<p class="w3-center w3-hide-large w3-hide-medium w3-medium">Senior I.T. Internship at NHTI, Concord's Community College. Software developer for the I.T. Tech Services Team at White Hall. Worked on researching and developing small applications and tools for the college and the I.T. Department.<br> Some of the tasks and duties completed:</p>
+		<ul class="w3-ul lst w3-hide-small">
+			<li class="w3-hover-red">Develop file share folder creation application.</li>
+			<li class="w3-hover-blue">Develop application or script for file and folder security permission configuration.</li>
+			<li class="w3-hover-green">Research and possible implement HTML website migration to new server.</li>
+			<li class="w3-hover-yellow">Become familiar with source control usage in work environment.</li>
+			<li class="w3-hover-brown">Create versatile drive mapping application.</li>
+		</ul>
+
+		<!-- Small -->
+		<ul class="w3-ul w3-hide-large w3-hide-medium w3-center">
+			<li class="w3-hover-red">Develop file share folder creation application.</li>
+			<li class="w3-hover-blue">Develop application or script for file and folder security permission configuration.</li>
+			<li class="w3-hover-green">Research and possible implement HTML website migration to new server.</li>
+			<li class="w3-hover-brown">Become familiar with source control usage in work environment.</li>
+			<li class="w3-hover-yellow">Create versatile drive mapping application.</li>
+		</ul>
+
+		<!-- White Hall map (Iframe) **Hide it on small screens** -->
+		<div class="w3-center w3-jumbo w3-padding w3-hide-small">
+			<h1>White Hall</h1>
+			<iframe src="https://www.google.com/maps/embed?pb=!4v1574452354222!6m8!1m7!1slBr6-bTE5iW-TglTgFzYqw!2m2!1d43.22469283860777!2d-71.53293515741862!3f299.22167418443775!4f-9.03388782564771!5f1.9587109090973311" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+			<p class="w3-opacity w3-center"><i>7 Institute Dr, Concord, NH 03301</i></p>
+			<p class="w3-opacity w3-center"><i>(603) 271-6484</i></p>
+		</div>
+	</div>
+
+	<!-- Project Section -->
+	<div class="w3-light-grey w3-center hdrs">
+		<div class="w3-container w3-hide-small">
+			<h1 class="w3-center">Projects</h1>
+			<div>
+				<img src="images/drivemap.jpg" alt="DriveMap" class="img-internship w3-center w3-round">
+				<h2><a href="https://github.com/CarloCapuz/DriveMap/tree/master/DriveMap" target="_blank">Drive Map</a></h2>
+				<p class="w3-opacity w3-text-indigo"><i>C# and Windows Forms</i></p>
+				<p class="desc">This was a quick project that was assigned to me by my supervisor. This application was used by one of my professors. The user puts their username and password for their directory and the application maps the user's drive and gives them full permission. The user does not have to navigate the file explorer to go to their directory.</p>
+			</div>
+
+			<div>
+				<img src="images/fcc.jpg" alt="FCC" class="img-internship w3-center w3-round">
+				<h2><a href="https://github.com/CarloCapuz/FolderSecurityPermission" target="_blank">Folder Security Permission (Console)</a></h2>
+				<p class="w3-opacity w3-text-indigo"><i>C#</i></p>
+				<p class="desc">This project was the first part of a long-term project. This application is going to be utilized by the I.T. Department. The project asks the user which drive they want to create their folder in, asks the name of the directory, and sets permissions for the current user. If the directory name exists, it asks the user if they want to modify the folder's perissions or delete the directory. I added a lot of error and exception handlers to make sure the application does not have any bugs or produce errors.</p>
+			</div>
+
+			<div>
+				<img src="images/fspgui.jpg" alt="FSPGUI" class="img-internship w3-center w3-round">
+				<h2><a href="https://github.com/CarloCapuz/FolderSecurityPermissionGUI" target="_blank">Folder Security Permission (GUI)</a></h2>
+				<p class="w3-opacity w3-text-indigo"><i>C# and Windows Forms</i></p>
+				<p class="desc">This project was the second part of the long-term project. The project is basically the same as the console version, but using a graphical user interface. I also added a feature that lets the current user set a permission for a specific person. Additional exception and error handlers are added.</p>
+			</div>
+			
+			<div>
+				<img src="images/fspguiv2.jpg" alt="FSPGUIV2" class="img-internship w3-center w3-round">
+				<h2><a href="https://github.com/CarloCapuz/FSP-GUI-V2" target="_blank">Folder Security Permission (GUI Version 2)</a></h2>
+				<p class="w3-opacity w3-text-indigo"><i>C# and Windows Forms</i></p>
+				<p class="desc">This project was the last part of the long-term project. This project expanded with more features. It selects the drive, lists the contents of it and lists the user's permissions on a specific folder. More exception and error handlers are added. I am planning on migrating this project to UWP or WPF.</p>
+			</div>
+		</div>
+
+		<!-- Small Screen-->
+		<div class="w3-container w3-hide-medium w3-hide-large w3-show-small">
+			<h1 class="w3-center">Projects</h1>
+			<div>
+				<img src="images/drivemap.jpg" alt="DriveMap" class="w3-center w3-round" style="width:75%">
+				<h2><a href="https://github.com/CarloCapuz/DriveMap/tree/master/DriveMap" target="_blank">Drive Map</a></h2>
+				<p class="w3-opacity w3-text-indigo"><i>C# and Windows Forms</i></p>
+				<p class="desc w3-medium">This was a quick project that was assigned to me by my supervisor. This application was used by one of my professors. The user puts their username and password for their directory and the application maps the user's drive and gives them full permission. The user does not have to navigate the file explorer to go to their directory.</p>
+			</div>
+
+			<div>
+				<img src="images/fcc.jpg" alt="FCC" class="w3-center w3-round" style="width:75%">
+				<h2><a href="https://github.com/CarloCapuz/FolderSecurityPermission" target="_blank">Folder Security Permission (Console)</a></h2>
+				<p class="w3-opacity w3-text-indigo"><i>C#</i></p>
+				<p class="desc w3-medium">This project was the first part of a long-term project. This application is going to be utilized by the I.T. Department. The project asks the user which drive they want to create their folder in, asks the name of the directory, and sets permissions for the current user. If the directory name exists, it asks the user if they want to modify the folder's perissions or delete the directory. I added a lot of error and exception handlers to make sure the application does not have any bugs or produce errors.</p>
+			</div>
+
+			<div>
+				<img src="images/fspgui.jpg" alt="FSPGUI" class="w3-center w3-round" style="width:75%">
+				<h2><a href="https://github.com/CarloCapuz/FolderSecurityPermissionGUI" target="_blank">Folder Security Permission (GUI)</a></h2>
+				<p class="w3-opacity w3-text-indigo"><i>C# and Windows Forms</i></p>
+				<p class="desc w3-medium">This project was the second part of the long-term project. The project is basically the same as the console version, but using a graphical user interface. I also added a feature that lets the current user set a permission for a specific person. Additional exception and error handlers are added.</p>
+			</div>
+			
+			<div>
+				<img src="images/fspguiv2.jpg" alt="FSPGUIV2" class="w3-center w3-round" style="width:75%">
+				<h2><a href="https://github.com/CarloCapuz/FSP-GUI-V2" target="_blank">Folder Security Permission (GUI Version 2)</a></h2>
+				<p class="w3-opacity w3-text-indigo"><i>C# and Windows Forms</i></p>
+				<p class="desc w3-medium">This project was the last part of the long-term project. This project expanded with more features. It selects the drive, lists the contents of it and lists the user's permissions on a specific folder. More exception and error handlers are added. I am planning on migrating this project to UWP or WPF.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="w3-container w3-brown w3-center">
+      <small>Copyright &copy; Carlo Capuz 2019</small>
+    </div>
+    
+</body>
+</html>

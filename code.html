@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>My Blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<nav class="menu w3-hide-small">
+		<div id="menu-outer">
+			<ul class="menu-list">
+				<li><a title="home" href="index.html">Home</a></li>
+				<li><a title="about" href="about.html">About</a></li>
+				<li><a title="internship" href="internship.html">Internship Experience</a></li>
+				<li><a title="blog" href="index.html#blog">Blog</a></li>
+				<li><a title="contact" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Small screen nav bar -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+	  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+	    <a href="index.html" class="w3-bar-item w3-button" style="width:20%">Home</a>
+	    <a href="about.html" class="w3-bar-item w3-button" style="width:20%">About</a>
+	    <a href="internship.html" class="w3-bar-item w3-button" style="width:20%">Internship</a>
+	    <a href="index.html#blog" class="w3-bar-item w3-button" style="width:20%">Blog</a>
+	    <a href="contact.html" class="w3-bar-item w3-button" style="width:20%">Contact</a>
+	  </div>
+	</div>
+
+	<!-- Page Content -->
+	<div class="w3-center hdrs" style="padding-top: 50px">
+		<h1 style="margin-bottom: 0px;">Coding Best Practices</h1>
+		<p class="w3-opacity" style="margin-top:0px;">Thu 5 Dec 2019</p>
+		<p class="w3-left-align">When you're working on a project, it's best to keep these practices in mind on your coding implementations:</p>
+		<div class="w3-left-align">
+			<dl>
+				<dt><b>1. Use consistent indentation</b></dt>
+				<dd class="w3-margin">-There is no right or wrong indentation that everyone should follow. The best style, is a consistent style. Once you start competing in large projects you’ll immediately understand the importance of consistent code styling. Example: Indent everytime you create a new construct (Conditional statements, Loops, etc.).</dd>
+
+				<dt><b>2. Follow the DRY Principle</b></dt>
+				<dd class="w3-margin">-DRY stands for “Don’t Repeat Yourself.<br>-The same piece of code should not be repeated over and over again.</dd>
+				<dd><img src="images/dry.png" alt="DRY Principle" class="w3-center w3-margin-bottom"></dd>
+
+				<dt><b>3. Avoid Deep Nesting</b></dt>
+				<dd class="w3-margin">-Too many levels of nesting can make code harder to read and follow.</dd>
+				<dd><img src="images/deepnest.jpg" alt="Deep Nesting" class="w3-center w3-margin-bottom w3-hide-small" style="width:30%;"></dd>
+				<dd><img src="images/deepnest.jpg" alt="Deep Nesting" class="w3-center w3-margin-bottom w3-hide-large w3-hide-medium" style="width:85%;"></dd>
+
+				<dt><b>4. Limit Line Length</b></dt>
+				<dd class="w3-margin">-Long lines are hard to read. It is a good practice to avoid writing horizontally long lines of code.</dd>
+
+				<dt><b>5. File and Folder Structure</b></dt>
+				<dd class="w3-margin">-You should avoid writing all of your code in one of 1-2 files. That won’t break your app but it would be a nightmare to read, debug and maintain your application later.<br>-Keeping a clean folder structure will make the code a lot more readable and maintainable.</dd>
+
+				<dt><b>6. Naming Conventions</b></dt>
+				<dd class="w3-margin">-Use of proper and meaningful naming conventions is a well known best practice. It's a very common issue where developers use variables like X1, Y1 and forget to replace them with meaningful ones, causing confusion and making the code less readable.</dd>
+
+				<dt><b>7. Keep the Code Simple</b></dt>
+				<dd class="w3-margin">-The code should always be simple. Complicated logic for achieving simple tasks is something you want to avoid as the logic one programmer implemented a requirement may not make perfect sense to another. So, always keep the code as simple as possible.</dd>
+				<dd><img src="images/simple.jpeg" alt="Simple Code" class="w3-center w3-margin-bottom w3-hide-small" style="width:30%;"></dd>
+				<dd><img src="images/simple.jpeg" alt="Simple Code" class="w3-center w3-margin-bottom w3-hide-large w3-hide-medium" style="width:80%;"></dd>
+				
+				<dt><b>8. Comments</b></dt>
+				<dd class="w3-margin">-It's important to put comments on parts of your code explaining what it does. It's useful for other people who will view or use your code. Comments breaking apart sections/parts. It also helps you keep track of your code and make it more maintanable. Just remember not to write comments for every line of code and every variable declared, just wherever it's required.</dd>
+			</dl>
+		</div>
+		<p><i>Credit: <a href="https://www.topcoder.com/coding-best-practices/" target="_blank">TopCoder</a></i></p>
+		<p><i>Share: <a href="https://linkedin.com"><i class="fa fa-linkedin w3-hover-opacity w3-large icons"></i></a> <a href="https://twitter.com"><i class="fa fa-twitter w3-hover-opacity w3-large icons"></i></a> <a href="https://facebook.com"><i class="fa fa-facebook-official w3-hover-opacity w3-large icons"></i></a></i></p>
+	</div>
+
+	<!-- Footer -->
+	<div class="w3-container w3-brown w3-center">
+      <small>Copyright &copy; Carlo Capuz 2019</small>
+    </div>
+</body>
+</html>
